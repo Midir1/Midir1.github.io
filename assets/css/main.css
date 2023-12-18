@@ -99,10 +99,6 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -313,7 +309,7 @@ input, select, textarea {
 		color: #ffffff;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1,h2,h3, h4, h5, h6 {
 		color: #ffffff;
 	}
 
@@ -2643,15 +2639,6 @@ input, select, textarea {
 			font-size: 2em;
 		}
 
-			header.major h2:after {
-				display: block;
-				content: '';
-				width: 3.25em;
-				height: 2px;
-				margin: 0.7em 0 1em 0;
-				border-radius: 2px;
-			}
-
 				section.special header.major h2:after, article.special header.major h2:after {
 					margin-left: auto;
 					margin-right: auto;
@@ -3215,14 +3202,14 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
-		color: #636363;
+		color: #ffffff;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
-		border-top-left-radius: 0.25em;
-		border-top-right-radius: 0.25em;
+		background-color: #7F7CAD;
+		border-top-left-radius: 0.4em;
+		border-top-right-radius: 0.4em;
 		cursor: default;
 		text-align: center;
 	}
@@ -3293,18 +3280,20 @@ input, select, textarea {
 
 					#nav ul li a:hover {
 						background-color: rgba(222, 222, 222, 0.25);
+						color: #ffffff;
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
+						background-color: #EEECFC;
+						color: #636363;
 						box-shadow: none;
 					}
-
+		
 		#nav.alt {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: rgb(127, 124, 173);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
@@ -3333,9 +3322,9 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: #EEECFC;
 		color: #636363;
-		border-radius: 0.25em;
+		border-radius: 0.5em;
 	}
 
 		#main input, #main select, #main textarea {
