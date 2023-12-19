@@ -163,6 +163,7 @@ input, select, textarea {
 		a:hover {
 			border-bottom-color: transparent;
 		}
+		
 
 	strong, b {
 		font-weight: 400;
@@ -3194,6 +3195,10 @@ input, select, textarea {
 			transform: scale(0.8) rotate(-30deg);
 		}
 
+.noDecoration, a:link, a:visited {
+	text-decoration: none;
+}
+
 /* Nav */
 
 	#nav {
@@ -3217,7 +3222,7 @@ input, select, textarea {
 		#nav input, #nav select, #nav textarea {
 			color: #636363;
 		}
-
+		
 		#nav a:hover {
 			color: #636363;
 		}
@@ -3682,7 +3687,7 @@ input, select, textarea {
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
 	}
-
+	
 		#footer > * {
 			width: calc(50% - 2em);
 			margin-left: 2em;
