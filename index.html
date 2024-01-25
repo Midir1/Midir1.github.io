@@ -6,11 +6,16 @@
 -->
 <html>
 	<head>
-		<title>Midir Blog</title>
+		<title>Midir's Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
 	</head>
 	<body class="is-preload">
 
@@ -29,7 +34,8 @@
 						<ul>
 							<li><a href="#intro" class="active">About me</a></li>
 							<li><a href="#first">Skills</a></li>
-							<li><a href="#second">Projects</a></li>
+							<li><a href="#second">Game Projects</a></li>
+							<li><a href="#third">Modelisation Projects</a></li>
 						</ul>
 					</nav>
 				
@@ -44,10 +50,10 @@
 										<h2 style="font-weight: bold; text-align: center">About Me</h2>
 										</header>
 										<p style="text-align: left">Hello, welcome to my page ! 
-											My name is Jordan and I'm currently in my final year at Creajeux. I've been studying game programming for over 4 years now, and I'd like to become a gameplay and AI programmer. <br> <br>
+											My name is Jordan and I'm currently in my final year at Creajeux. I've been studying game programming for over 5 years now, and I'd like to become a gameplay and AI programmer. <br> <br>
 											At college, I had no idea what I wanted to do later in life. Even though it's not a problem at that age to don't know what you want to do, it didn't suit me. One day, while talking to my father, he steered me towards video games, and that's how I discovered the world of video game creation. <br><br>
 											Playing video games is great, but making one is two different things. In high school, I discovered the Unity game engine and quickly started small projects in my spare time. What I did to see if I liked it turned out to be a passion. <br><br>
-											The next logical step in my studies was game programming. After 4 years and many projects, I was able to broaden my skills, both technically and in human terms. I specialized in gameplay, because I love seeing the game come to life by implementing the different mechanics that come from game design, and I enjoy collaborating with the different trades that the video game industry has to offer. I've also specialized in AI, because I love working out the logic of non-playable characters and seeing them act in a realistic way. That's why I'm currently working on my personal machine learning project.</p>
+											The next logical step in my studies was game programming. After 5 years and many projects, I was able to broaden my skills, both technically and in human terms. I specialized in gameplay, because I love seeing the game come to life by implementing the different mechanics that come from game design, and I enjoy collaborating with the different trades that the video game industry has to offer. I've also specialized in AI, because I love working out the logic of non-playable characters and seeing them act in a realistic way. That's why I'm currently working on my personal machine learning project.</p>
 									</div>
 								</div>
 							</section>
@@ -97,232 +103,323 @@
 								</ul>
 							</section>
 
-						<!-- Second Section -->
-							<section id="second" class="main special">
-								<header class="major">
-									<h2 style="font-weight: bold;">Projects</h2>
-									<ul class="features">
-										<li>
-											<!--<iframe frameborder="0" src="https://itch.io/embed/2422834?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="552" height="167"><a href="https://midir1.itch.io/mlproject">MLProject by Midir</a></iframe>-->
-											<h3>MLProject</h3>
-											<h4 style="text-align: left">
-												Overview : <br>
-												MLProject is a WIP project on Reinforcement Learning. <br><br>
+						<!-- Second Section - Projects Carousel -->
+						<section id="second" class="main special">
+							<header class="major">
+								<h2 style="font-weight: bold;">Game Projects</h2>
+							</header>
+							<div class="slick-carousel">
+								<!-- Your project slides go here -->
+								<div>
+									<!-- Project 1 content -->
+									<h3>MLProject</h3>
+									<h4 style="text-align: left">
+										Overview : <br>
+										MLProject is a WIP project on Reinforcement Learning. <br><br>
 
-												Key features : <br>
-												• Setting up a mini-game <br>
-												• Setting up the neural network <br>
-												• Setting up the Q-Learning <br><br>
+										Key features : <br>
+										• Setting up a mini-game <br>
+										• Setting up the neural network <br>
+										• Setting up Backpropagation <br><br>
 
-												<!--Challenges and Solutions : <br>-->
+										<!--Challenges and Solutions : <br>-->
 
-												Made With : <br>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/UnrealEngine_Black.svg" width="50" height="auto" alt="Unity"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Cplusplus.svg" width="50" height="auto" alt="Unity"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
-											</h4>
-										</li>
-										<li>
-											<iframe frameborder="0" src="https://itch.io/embed/2144375?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167" style="border-radius: 10px;"><a href="https://zaien.itch.io/industrial-warfare">Industrial Warfare by Maxime Chabrolle, Midir, CharreMarc, Gama30, Clement_Lebas, MANOLI Benjamin</a></iframe>
-											<h3>Industrial Warfare</h3>	
-											<h4 style="text-align: left">
-												Overview : <br>
-												Industrial Warfare is a "Dungeon Keeper" with various "RTS" mechanics. <br><br>
-												
-												Key features : <br>
-												• Integration of 3D Models, Animations, VFX in collaboration with artists <br>
-												• Pooling system to optimize projectile appearance <br>
-												• Use of Flocking behavior for agents <br>
-												• Setting up the Navmesh on a procedural generated level <br>
-												• Agent logic made with a Finite State Machine <br><br>
-												
-												Challenges and Solutions : <br>
-												Challenges related to AI decision-making with procedural generation and AI movement with unit grouping. <br>
-												Collaboration with the programmer in charge of map generation and implementation of flocking with cohesion, alignment and separation rules to create unit groups. <br><br>
-											
-												Made With : <br>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="Unity"/>
-											</h4>
-										</li>
-										<li>
-											<iframe frameborder="0" src="https://itch.io/embed/1445689?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167" style="border-radius: 10px;"><a href="https://midir1.itch.io/die-die-dinosaur">Die Die Dinosaur by Midir</a></iframe>
-											<h3>Die Die Dinosaur</h3>
-											<h4 style="text-align: left">
-												Overview : <br>
-												DieDieDinosaur is a game made during a Cross-Jam on the "Extinction" theme. <br><br>
+										Made With : <br>
+										<div class="logo-container">
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/UnrealEngine_Black.svg" width="50" height="auto" alt="Unreal Engine"/>
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Cplusplus.svg" width="50" height="auto" alt="C++"/>
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
+										</div>
+									</h4>
+								</div>
+								<div>
+									<!-- Project 2 content -->
+									<iframe frameborder="0" src="https://itch.io/embed/2144375?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167" style="border-radius: 10px;"><a href="https://zaien.itch.io/industrial-warfare">Industrial Warfare by Maxime Chabrolle, Midir, CharreMarc, Gama30, Clement_Lebas, MANOLI Benjamin</a></iframe>
+									<h3>Industrial Warfare</h3>
+									<h4 style="text-align: left">
+										Overview : <br>
+										Industrial Warfare is a "Dungeon Keeper" with various "RTS" mechanics. <br><br>
 
-												Key features : <br>
-												• Integration of 2D models and sounds <br>
-												• Gameplay and particle system realization <br><br>
+										Key features : <br>
+										• Integration of 3D Models, Animations, VFX in collaboration with artists <br>
+										• Pooling system to optimize projectile appearance <br>
+										• Use of Flocking behavior for agents <br>
+										• Setting up the Navmesh on a procedural generated level <br>
+										• Agent logic made with a Finite State Machine <br><br>
 
-												Challenges and Solutions : <br>
-												Time production under one week. <br><br>
+										Challenges and Solutions : <br>
+										Challenges related to AI decision-making with procedural generation and AI movement with unit grouping. <br>
+										Collaboration with the programmer in charge of map generation and implementation of flocking with cohesion, alignment and separation rules to create unit groups. <br><br>
 
-												Made With : <br>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
-											</h4>
-										</li>
-										<li>
-											<iframe frameborder="0" src="https://itch.io/embed/1404792?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167" style="border-radius: 10px;"><a href="https://midir1.itch.io/tank-you">Tank You by Midir</a></iframe>
-											<h3>Tank You</h3>
-											<h4 style="text-align: left">
-												Overview : <br>
-												Tank You is a game made during a Cross-Jam on the "10 seconds" theme. <br><br>
+										Made With : <br>
+										<div class="logo-container">
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="Unity"/>
+										</div>
+									</h4>
+								</div>
+								<div>
+									<iframe frameborder="0" src="https://itch.io/embed/1445689?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167" style="border-radius: 10px;"><a href="https://midir1.itch.io/die-die-dinosaur">Die Die Dinosaur by Midir</a></iframe>
+									<h3>Die Die Dinosaur</h3>
+									<h4 style="text-align: left">
+										Overview : <br>
+										DieDieDinosaur is a game made during a Cross-Jam on the "Extinction" theme. <br><br>
 
-												Key features : <br>
-												• Integration of 3D model and sounds <br>
-												• Producing gameplay, system particles and an end game mini-cutscene <br><br>
+										Key features : <br>
+										• Integration of 2D models and sounds <br>
+										• Gameplay and particle system realization <br><br>
 
-												Challenges and Solutions : <br>
-												Time production under one week. <br><br>
+										Challenges and Solutions : <br>
+										Time production under one week. <br><br>
 
-												Made With : <br>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
-											</h4>
-										</li>
-										<li>
-											<iframe frameborder="0" src="https://itch.io/embed/2422800?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167" style="border-radius: 10px;"><a href="https://midir1.itch.io/connect4">Connect4 by Midir</a></iframe>
-											<h3>Connect4</h3>
-											<h4 style="text-align: left">
-												Overview : <br>
-												Reproduction of Connect4 with AI under Unity. <br><br>
+										Made With : <br>
 
-												Key features : <br>
-												• MinMax algorithm <br>
-												• AlphaBeta algorithm <br>
-												• Multiple Game Modes (Player vs Player, Player vs AI, AI vs AI) <br><br>
+										<div class="logo-container">
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
+										</div>
+									</h4>
+								</div>
+								<div>
+									<iframe frameborder="0" src="https://itch.io/embed/1404792?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167" style="border-radius: 10px;"><a href="https://midir1.itch.io/tank-you">Tank You by Midir</a></iframe>
+									<h3>Tank You</h3>
+									<h4 style="text-align: left">
+										Overview : <br>
+										Tank You is a game made during a Cross-Jam on the "10 seconds" theme. <br><br>
 
-												Challenges and Solutions : <br>
-												Implementing pseudo-code for MinMax and AlphaBeta algorithm. <br>
-												Understanding of the algorithms and how can I use them in my project. <br><br>
+										Key features : <br>
+										• Integration of 3D model and sounds <br>
+										• Producing gameplay, system particles and an end game mini-cutscene <br><br>
 
-												Made With : <br>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
-											</h4>
-										</li>
-										<li>
-											<iframe frameborder="0" src="https://itch.io/embed/1068311?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167" style="border-radius: 10px;"><a href="https://midir1.itch.io/dsproject">DSProject by Midir</a></iframe>
-											<h3>DSProject</h3>
-											<h4 style="text-align: left">
-												Overview : <br>
-												DSProject is a souls-like where you can find enemies, boss and difficulty. <br><br>
+										Challenges and Solutions : <br>
+										Time production under one week. <br><br>
 
-												Key features : <br>
-												• Character Controller <br>
-												• Interactible Items <br>
-												• Inventory System <br>
-												• Inverse Kinematics for foots placement <br>
-												• Animation Implementation <br>
-												• Weapons System <br>
-												• UI Manager <br>
-												• Audio Manager <br>
-												• AI logic with Finite State Machine <br>
-												• Locking Target System <br>
-												• Preventing Camera collision with environment <br><br>
+										Made With : <br>
+										<div class="logo-container">
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
+										</div>
+									</h4>
+								</div>
+								<div>
+									<iframe frameborder="0" src="https://itch.io/embed/2422800?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167" style="border-radius: 10px;"><a href="https://midir1.itch.io/connect4">Connect4 by Midir</a></iframe>
+									<h3>Connect4</h3>
+									<h4 style="text-align: left">
+										Overview : <br>
+										Reproduction of Connect4 with AI under Unity. <br><br>
 
-												Challenges and Solutions : <br>
-												Realize a complete project in all terms, that means Gameplay, UI, Sounds.<br>
-												Implementing the above key features to make the game complete.<br><br>
+										Key features : <br>
+										• MinMax algorithm <br>
+										• AlphaBeta algorithm <br>
+										• Multiple Game Modes (Player vs Player, Player vs AI, AI vs AI) <br><br>
 
-												Made With : <br>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
-											</h4>
-										</li>
-										<li>
-											<iframe frameborder="0" src="https://itch.io/embed/919313?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167"><a href="https://midir1.itch.io/emergency">Emergency by Midir</a></iframe>
-											<h3>Emergency</h3>
-											<h4 style="text-align: left">
-												Overview : <br>
-												Hyper-Casual prototype made during an internship. <br><br>
+										Challenges and Solutions : <br>
+										Implementing pseudo-code for MinMax and AlphaBeta algorithm. <br>
+										Understanding of the algorithms and how can I use them in my project. <br><br>
 
-												Key features : <br>
-												• Quick Gameplay <br>
-												• Funny Physics <br><br>
+										Made With : <br>
+										<div class="logo-container">
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
+										</div>
+									</h4>
+								</div>
+								<div>
+									<iframe frameborder="0" src="https://itch.io/embed/1068311?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167" style="border-radius: 10px;"><a href="https://midir1.itch.io/dsproject">DSProject by Midir</a></iframe>
+									<h3>DSProject</h3>
+									<h4 style="text-align: left">
+										Overview : <br>
+										DSProject is a souls-like where you can find enemies, boss and difficulty. <br><br>
 
-												Challenges and Solutions : <br>
-												Must meet employer's expectations. <br>
-												Participate in morning team meetings and discuss prototype with programmer. <br><br>
+										Key features : <br>
+										• Character Controller <br>
+										• Interactible Items <br>
+										• Inventory System <br>
+										• Inverse Kinematics for foots placement <br>
+										• Animation Implementation <br>
+										• Weapons System <br>
+										• UI Manager <br>
+										• Audio Manager <br>
+										• AI logic with Finite State Machine <br>
+										• Locking Target System <br>
+										• Preventing Camera collision with environment <br><br>
 
-												Made With : <br>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Scrum.png" width="50" height="auto" alt="C#"/>
-												</h4>
-										</li>
-										<li>
-											<iframe frameborder="0" src="https://itch.io/embed/1350199?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167"><a href="https://midir1.itch.io/conways-game-of-life">Conway's Game Of Life by Midir</a></iframe>
-											<h3>Conway's Game Of Life</h3>
-											<h4 style="text-align: left">
-												Overview : <br>
-												Reproduction of Conway's Game Of Life under Unity <br><br>
+										Challenges and Solutions : <br>
+										Realize a complete project in all terms, that means Gameplay, UI, Sounds.<br>
+										Implementing the above key features to make the game complete.<br><br>
 
-												Key features : <br>
-												• Cellular Automaton Cycles <br>
-												• Adding existing preset <br><br>
+										Made With : <br>
+										<div class="logo-container">
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
+										</div>
+									</h4>
+								</div>
+								<div>
+									<iframe frameborder="0" src="https://itch.io/embed/919313?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167"><a href="https://midir1.itch.io/emergency">Emergency by Midir</a></iframe>
+									<h3>Emergency</h3>
+									<h4 style="text-align: left">
+										Overview : <br>
+										Hyper-Casual prototype made during an internship. <br><br>
 
-												Challenges and Solutions : <br>
-												Understanding of the concept in code it in C#. <br><br>
+										Key features : <br>
+										• Quick Gameplay <br>
+										• Funny Physics <br><br>
 
-												Made With : <br>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
-											</h4>
-										</li>
-										<li>
-											<iframe frameborder="0" src="https://itch.io/embed/919299?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167"><a href="https://midir1.itch.io/billys-pod">Billy's Pod by Midir, elootam</a></iframe>
-											<h3>Billy's Pod</h3>
-											<h4 style="text-align: left">
-												Overview : <br>
-												Billy's Pod is a game made during Global Game Jam 2021 : Lost and Found <br><br>
+										Challenges and Solutions : <br>
+										Must meet employer's expectations. <br>
+										Participate in morning team meetings and discuss prototype with programmer. <br><br>
 
-												Key features : <br>
-												• Pod logic <br>
-												• Parallax background <br><br>
+										Made With : <br>
+										<div class="logo-container">
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Scrum.png" width="50" height="auto" alt="C#"/>
+										</div>
+									</h4>
+								</div>
+								<div>
+									<iframe frameborder="0" src="https://itch.io/embed/1350199?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167"><a href="https://midir1.itch.io/conways-game-of-life">Conway's Game Of Life by Midir</a></iframe>
+									<h3>Conway's Game Of Life</h3>
+									<h4 style="text-align: left">
+										Overview : <br>
+										Reproduction of Conway's Game Of Life under Unity <br><br>
 
-												Challenges and Solutions : <br>
-												Time production under two days. <br><br>
+										Key features : <br>
+										• Cellular Automaton Cycles <br>
+										• Adding existing preset <br><br>
 
-												Made With : <br>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
-											</h4>
-										</li>
-										<li>
-											<iframe frameborder="0" src="https://itch.io/embed/919337?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167"><a href="https://midir1.itch.io/lostmaze">LostMaze by Midir</a></iframe>
-											<h3>Maze</h3>
-											<h4 style="text-align: left">
-												Overview : <br>
-												Prototype using A* algorithm and procedural generation. <br><br>
+										Challenges and Solutions : <br>
+										Understanding of the concept in code it in C#. <br><br>
 
-												Key features : <br>
-												• A* algorithm used for pathfinding <br>
-												• Djisktra's algorithm <br>
-												• Procedural generation used for the level initialization <br><br>
+										Made With : <br>
+										<div class="logo-container">
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
+										</div>
+									</h4>
+								</div>
+								<div>
+									<iframe frameborder="0" src="https://itch.io/embed/919299?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167"><a href="https://midir1.itch.io/billys-pod">Billy's Pod by Midir, elootam</a></iframe>
+									<h3>Billy's Pod</h3>
+									<h4 style="text-align: left">
+										Overview : <br>
+										Billy's Pod is a game made during Global Game Jam 2021 : Lost and Found <br><br>
 
-												Challenges and Solutions : <br>
-												Implementation of pseudo-code for the A* algorithm and the Djisktra algorithm. <br>
-												Understanding the algorithms and how I can use them in my project. <br><br>
+										Key features : <br>
+										• Pod logic <br>
+										• Parallax background <br><br>
 
-												Made With : <br>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
-												<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
-											</h4>
-										</li>
-									</ul>
-							</section>
+										Challenges and Solutions : <br>
+										Time production under two days. <br><br>
+
+										Made With : <br>
+										<div class="logo-container">
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
+										</div>
+									</h4>
+								</div>
+								<div>
+									<iframe frameborder="0" src="https://itch.io/embed/919337?bg_color=486B76&amp;fg_color=ffffff&amp;link_color=FFC195&amp;border_color=5d808c" width="208" height="167"><a href="https://midir1.itch.io/lostmaze">LostMaze by Midir</a></iframe>
+									<h3>Maze</h3>
+									<h4 style="text-align: left">
+										Overview : <br>
+										Prototype using A* algorithm and procedural generation. <br><br>
+
+										Key features : <br>
+										• A* algorithm used for pathfinding <br>
+										• Djisktra's algorithm <br>
+										• Procedural generation used for the level initialization <br><br>
+
+										Challenges and Solutions : <br>
+										Implementation of pseudo-code for the A* algorithm and the Djisktra algorithm. <br>
+										Understanding the algorithms and how I can use them in my project. <br><br>
+
+										Made With : <br>
+										<div class="logo-container">
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Unity_Black.svg" width="50" height="auto" alt="Unity"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Csharp.svg" width="50" height="auto" alt="C#"/>
+										<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Git.svg" width="50" height="auto" alt="Git"/>
+										</div>
+									</h4>
+								</div>
+								<!-- Add more project slides as needed -->
+							</div>
+						</section>
+
+						<!-- Second Section - Projects Carousel -->
+						<section id="third" class="main special">
+							<header class="major">
+								<h2 style="font-weight: bold;">Modelisation Projects</h2>
+							</header>
+							<div class="slick-carousel">
+								<!-- Your project slides go here -->
+								<div>
+									<!-- Project 1 content -->
+									<div class="sketchfab-embed-wrapper"> <iframe title="Mjöllnir" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="100%" height="600px" src="https://sketchfab.com/models/ed917d5958ff4416be0ccbde69e0d373/embed?autostart=1&ui_theme=dark"> </iframe> </div>
+									<h3>Mjöllnir</h3>
+									<h4 style="text-align: left">
+										
+										Made With : <br>
+										<div class="logo-container">
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Maya.svg" width="50" height="auto" alt="Unreal Engine"/>
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/SubstanceDesigner.svg" width="50" height="auto" alt="C++"/>
+										</div>
+									</h4>
+								</div>
+								<div>
+									<!-- Project 1 content -->
+									<div class="sketchfab-embed-wrapper"> <iframe title="Rusty Traffic Light" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="100%" height="600px" src="https://sketchfab.com/models/ea855ab60468434987f1609221bdc2b8/embed?autostart=1&dnt=1"> </iframe> </div>
+									<h3>Rusty Traffic Light</h3>
+									<h4 style="text-align: left">
+
+										Made With : <br>
+										<div class="logo-container">
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Maya.svg" width="50" height="auto" alt="Unreal Engine"/>
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/SubstanceDesigner.svg" width="50" height="auto" alt="C++"/>
+										</div>
+									</h4>
+								</div>
+								<div>
+									<!-- Project 1 content -->
+									<div class="sketchfab-embed-wrapper"> <iframe title="Palette" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="100%" height="600px" src="https://sketchfab.com/models/27b042793e5843de89a08ec24cb0e7d3/embed?autostart=1&dnt=1"> </iframe> </div>
+									<h3>Palette</h3>
+									<h4 style="text-align: left">
+
+										Made With : <br>
+										<div class="logo-container">
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Maya.svg" width="50" height="auto" alt="Unreal Engine"/>
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/SubstanceDesigner.svg" width="50" height="auto" alt="C++"/>
+										</div>
+									</h4>
+								</div>
+								<div>
+									<!-- Project 1 content -->
+									<div class="sketchfab-embed-wrapper"> <iframe title="Rusty Red Barrel" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share  src="https://sketchfab.com/models/8dce3913140641f49ab87de44161ab76/embed?autostart=1&dnt=1"> </iframe> </div>
+									<h3>Rusty Red Barrel</h3>
+									<h4 style="text-align: left">
+
+										Made With : <br>
+										<div class="logo-container">
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/Maya.svg" width="50" height="auto" alt="Unreal Engine"/>
+											<img src="https://raw.githubusercontent.com/Midir1/Midir1/main/Logos/SubstanceDesigner.svg" width="50" height="auto" alt="C++"/>
+										</div>
+									</h4>
+								</div>
+						</section>
+						
 					</div>
+
+				
+
+			</div>
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -359,14 +456,24 @@
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/main.js"></script>
 
+		<!-- Slick Carousel Initialization -->
+		<script>
+			$(document).ready(function(){
+				$('.slick-carousel').slick({
+					dots: true, // Display dots for navigation
+					infinite: true,
+					speed: 500,
+					slidesToShow: 1, // Number of slides to show at a time
+					adaptiveHeight: true // Adjusts the height of the carousel to the content
+				});
+			});
+		</script>
 	</body>
 </html>

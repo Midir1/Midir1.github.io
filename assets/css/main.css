@@ -119,8 +119,17 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.65);
 	}
 
-	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+.logo-container {
+	display: flex; /* Use flexbox for a horizontal layout */
+}
+
+.logo-container img {
+	margin-right: 10px; /* Optional: Add spacing between images */
+}
+
+
+body, input, select, textarea {
+		font-family: 'Heebo', sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -3093,10 +3102,10 @@ input, select, textarea {
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-				transition: opacity 1.25s ease, transform 0.5s ease;
+				-moz-transition: opacity 0.75s ease, -moz-transform 0.25s ease;
+				-webkit-transition: opacity 0.75s ease, -webkit-transform 0.25s ease;
+				-ms-transition: opacity 0.75s ease, -ms-transform 0.25s ease;
+				transition: opacity 0.75s ease, transform 0.25s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
