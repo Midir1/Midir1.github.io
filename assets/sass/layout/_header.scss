@@ -34,8 +34,8 @@
 
 			.logo {
 				@include vendor('transition', (
-					'opacity 1.25s ease',
-					'transform 0.5s ease'
+					'opacity 0.75s ease',
+					'transform 0.25s ease'
 				));
 				@include vendor('transition-delay', '0s');
 				display: block;
